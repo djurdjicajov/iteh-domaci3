@@ -42,6 +42,26 @@ function App() {
 			klasa: 2,
 			inBus: false,
 		},
+		{
+			id: 4,
+			name: "Niš",
+			image:
+				"https://www.danas.rs/wp-content/uploads/2021/07/Beta-wcp66lfmrs-scaled-e1625919074321.jpg",
+			description:
+				"Niš je naš najveći južni grad, neobične kulture i dobrog provoda.",
+			klasa: 2,
+			inBus: false,
+		},
+		{
+			id: 5,
+			name: "Arilje",
+			image:
+				"https://www.blagofund.org/images/easyblog_articles/11/b2ap3_large_ARILJE_3_668A5184-1.jpg",
+			description:
+				"Mali grad na zapadu Srbije, poznat po najboljim malinama, kvalitetnom pamuku i najčistijoj reci Rzav",
+			klasa: 2,
+			inBus: false,
+		},
 	]);
 
 	function refreshFnc() {

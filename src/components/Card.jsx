@@ -26,7 +26,7 @@ function Card({ card, onAdd, onRemove, onSet, inBus }) {
 			)}
 			{inBus === true ? (
 				<>
-					<p className="text">Izaberite klasu: {card.klasa}</p>
+					<p className="text">Izabrana klasa: {card.klasa}</p>
 				</>
 			) : (
 				<div className="stringProps">

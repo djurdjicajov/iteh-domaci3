@@ -104,6 +104,16 @@
 	height: 350px;
 }
 
+.card-img {
+	width: 700px;
+	height: 350px;
+}
+
+.card-description {
+	width: 500px;
+	height: 350px;
+}
+
 .btnRemove {
 	background-color: #92c5de;
 	color: white;
