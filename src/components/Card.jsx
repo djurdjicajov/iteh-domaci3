@@ -17,11 +17,11 @@ function Card({ card, onAdd, onRemove, onSet, inBus }) {
 			</div>
 			{inBus === false ? (
 				<button className="btnAdd" onClick={() => onAdd(card)}>
-					Add card
+					Dodaj kartu
 				</button>
 			) : (
 				<button className="btnRemove" onClick={() => onRemove(card)}>
-					Remove card
+					Ukloni kartu
 				</button>
 			)}
 			{inBus === true ? (
@@ -45,7 +45,7 @@ function Card({ card, onAdd, onRemove, onSet, inBus }) {
 					{/* <p>String size:</p>
           <input className="txtKlasa" type="text" onChange={set} />{" "} */}
 					<button className="btnSubmit" onClick={() => onSet(card.id, klasa)}>
-						Submit
+						Potvrdi
 					</button>
 				</div>
 			)}
